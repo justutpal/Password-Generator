@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password generator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="para"></div>
+        <div class="up">
+            <input type="text" name="text" id="text">
+            <label for="text" class="copy">Copy</label>
+        </div>
+
+        <div class="down">
+            <input type="range" name="length" id="length" value="5" min="5" max="15" step="1">
+            <label for="number">Length(<span class="len"></span>)</label>
+
+            <input type="checkbox" name="number" id="number" value="number">
+            <label for="number">Number</label>
+
+            <input type="checkbox" name="character" id="character" value="character">
+            <label for="character"> Character</label>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+    
+</body>
+</html>
