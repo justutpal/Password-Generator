@@ -9,12 +9,17 @@ body {
     color: white;
 }
 
+.passHead {
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
 .container {
     width: 370px;
     border-radius: 10px;
     background-color: rgb(90, 24, 24);
     padding: 50px;
-    margin: 100px auto;
+    margin: 75px auto;
     border: 2px solid rgb(10, 226, 183);
 }
 

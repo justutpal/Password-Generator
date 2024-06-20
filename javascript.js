@@ -1,6 +1,5 @@
 let inputText = document.querySelector("#text");
 let copy = document.querySelector(".copy");
-let para = document.querySelector(".para");
 let len = document.querySelector(".len");
 let inputLength = document.querySelector("#length");
 let inputNumber = document.querySelector("#number");
